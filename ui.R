@@ -15,9 +15,9 @@ shinyUI(pageWithSidebar(
         br(),
         
         selectInput("words", "Maximum predicted words to return",
-                    choices = list("1" = 1, "2" = 2,
-                                   "3" = 3, "4" = 4,
-                                   "5" = 5), selected = 5),
+                    choices = list("1" = 1), selected = 1),
+                                   # "3" = 3, "4" = 4,
+                                   #"5" = 5), selected = 5),
         br(),
         
         strong("Click Predict button below to return the predicted words."),
